@@ -109,6 +109,12 @@ p {
   background: none;
 }
 
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 760px) {
+  #some-element { display: none; }
+}
+
 @media(min-width:768px) {
   #wrapper {
     padding-left: 0;
