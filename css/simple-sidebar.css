@@ -51,7 +51,9 @@ p {
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -110,6 +112,7 @@ p {
 @media(min-width:768px) {
   #wrapper {
     padding-left: 0;
+    padding-right: 0px;
     
   }
   #wrapper.toggled {
@@ -124,10 +127,22 @@ p {
   #page-content-wrapper {
     padding: 20px;
     padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     position: relative;
   }
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
   }
+}
+
+
+.container-fluid  {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px !important; 
+  padding-left: 0px !important;
+  width: 100%;
 }
