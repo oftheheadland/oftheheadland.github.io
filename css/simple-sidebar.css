@@ -6,7 +6,6 @@
 
 body {
   overflow-x: hidden;
-  background-color: rgb(203, 247, 237) !important;
 }
 
 /* h2 {
@@ -37,7 +36,6 @@ p {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: rgb(22, 25, 37);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -155,4 +153,16 @@ p {
   padding-right: 0px !important; 
   padding-left: 0px !important;
   width: 100%;
+}
+
+
+
+.btn-menu {
+  color: #fff;
+  background-color: #2e2e2e;
+  border-color: #41464b;
+}
+.btn {
+  border-radius: 0px !important;
+
 }
