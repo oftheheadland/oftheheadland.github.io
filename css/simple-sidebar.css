@@ -9,13 +9,13 @@ body {
   background-color: rgb(203, 247, 237) !important;
 }
 
-h2 {
+/* h2 {
   text-align: center;
 }
 
 p {
   text-align: center;
-}
+} */
 
 #wrapper {
   padding-left: 0;
@@ -71,6 +71,7 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
+  height: 100%;
 }
 
 .sidebar-nav li {
@@ -82,6 +83,15 @@ p {
   display: block;
   text-decoration: none;
   color: #999999;
+}
+
+.sidebar-nav p {
+  color: #999999;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .sidebar-nav li a:hover {
