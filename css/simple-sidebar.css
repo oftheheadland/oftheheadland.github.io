@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  font-weight: 500 !important;
 }
 
 /* h2 {
@@ -63,6 +64,7 @@ p {
 /* Sidebar Styles */
 
 .sidebar-nav {
+  padding-top: 100px !important;
   position: absolute;
   top: 0;
   width: 250px;
@@ -110,6 +112,7 @@ p {
 
 .sidebar-nav>.sidebar-brand a {
   color: #999999;
+  padding-left: 35px;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
