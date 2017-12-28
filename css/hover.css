@@ -1,0 +1,140 @@
+.title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.project {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+    float: left;
+}
+
+.project-1 {
+    background-image: url(../img/dog.png);
+}
+.project-2 {
+    background-image: url(../img/bird.png);
+}
+
+.project-3 {
+    background-image: url(../img/tent.png);
+}
+
+.project-4 {
+    background-image: url(../img/clover.png);
+}
+
+.project-5 {
+    background-image: url(../img/cart.png);
+}
+
+.project-6 {
+    background-image: url(../img/portfolio.png);
+}
+
+.project-7 {
+    background-image: url(../img/resume.png);
+}
+
+.project-8 {
+    background-image: url(../img/textbook.png);
+}
+
+.project-9 {
+    background-image: url(../img/cards.png);
+}
+
+.project-10 {
+    background-image: url(../img/checkers.png);
+}
+
+.project-11 {
+    background-image: url(../img/marketplace.png);
+}
+
+.project-12 {
+    background-image: url(../img/fsharp.png);
+}
+
+.project-13 {
+    background-image: url(../img/filetransfer.png);
+}
+
+.project-14 {
+    background-image: url(../img/dice.png);
+}
+
+.project-15 {
+    background-image: url(../img/breakout.png);
+}
+
+.project-16 {
+    background-image: url(../img/govt.png);
+}
+
+.project-hover {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(64, 110, 142, 0.9);
+    padding: 40% 30px !important;
+}
+
+.project-hover hr {
+    height: 30px;
+    width: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+}
+
+.project-hover a {
+    color: rgba(255, 255, 255, 1);
+    padding: 2px 22px;
+    line-height: 40px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+    border-color: rgba(51, 51, 51, 1);
+    color: rgba(51, 51, 51, 1);
+    background-color: #FFF;
+}
+
+.project:hover .project-hover {
+    opacity: 1;
+}
+
+.project:hover .project-hover hr {
+    width: 100%;
+    height: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#header-content {
+    position: absolute;
+    bottom: 0px;
+    
+}
