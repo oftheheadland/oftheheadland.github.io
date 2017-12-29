@@ -1,1 +1,1 @@
-Directory and home page.
+A home for my projects. This website serves as a directory to my work.

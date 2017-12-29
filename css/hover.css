@@ -121,7 +121,7 @@ If the browser window is 500px or smaller, the background color will be lightblu
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 
-    padding: 40% 30px !important;
+    padding: 30% 30px !important;
 }
 
 .project-hover hr {
@@ -204,4 +204,17 @@ img {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+
+
+/* svg */
+.em, .em-svg {
+    height: 1em !important; 
+    width: 1em !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: -3px !important;
 }
