@@ -1,13 +1,8 @@
-/*!
- * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
- */
-
 body {
   overflow-x: hidden;
   font-weight: 500 !important;
 }
+
 
 /* h2 {
   text-align: center;
@@ -100,7 +95,8 @@ p {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.sidebar-nav li a:active, .sidebar-nav li a:focus {
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
   text-decoration: none;
 }
 
@@ -124,7 +120,6 @@ p {
   #wrapper {
     padding-left: 0;
     padding-right: 0px;
-    
   }
   #wrapper.toggled {
     padding-left: 250px;
@@ -148,24 +143,21 @@ p {
   }
 }
 
-
-.container-fluid  {
+.container-fluid {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 0px !important; 
+  padding-right: 0px !important;
   padding-left: 0px !important;
   width: 100%;
 }
-
-
 
 .btn-menu {
   color: #fff;
   background-color: #2e2e2e;
   border-color: #41464b;
 }
+
 .btn {
   border-radius: 0px !important;
-
 }
