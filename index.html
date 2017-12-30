@@ -328,6 +328,10 @@ if ($(window).width() >= 600) {
     }
 }
 
+
+if (screen && screen.width < 480) {
+            $("#wrapper").toggleClass("toggled");
+        };
 /*     var isVisible = $( "#sidebar-wrapper" ).is( ":visible" ); 
     var isHidden = $( "#sidebar-wrapper" ).is( ":hidden" );
 
