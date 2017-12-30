@@ -310,6 +310,53 @@
         $("#wrapper").toggleClass("toggled");
     }
 
+$(window).resize(function() {
+
+//toggle sidebar based on screen width
+if($("#wrapper").hasClass("toggled")) {
+    //if screen size < 600 and sidebar is visible, toggle it
+    if ($(window).width() <= 600) {
+        $("#wrapper").toggleClass("toggled");
+    }
+}
+
+else {
+//if screen size is > 600 and sidebar is NOT visible, toggle it
+if ($(window).width() >= 600) {
+        console.log("currently visible!")
+        $("#wrapper").toggleClass("toggled");
+    }
+}
+
+/*     var isVisible = $( "#sidebar-wrapper" ).is( ":visible" ); 
+    var isHidden = $( "#sidebar-wrapper" ).is( ":hidden" );
+
+    if ($(window).width() <= 800) {
+        if(isVisible == true) {
+            $("#wrapper").toggleClass("toggled");
+            console.log("toggling")
+        };
+    };
+ */
+
+/*  
+if($("#sidebar-wrapper").is(":hidden")) {
+    console.log("hello")
+} */
+
+/*     
+if ($(window).width() <= 810) {
+        if($(window).width() >= 800) {
+            $("#wrapper").toggleClass("toggled");
+            console.log("toggling")
+       
+    }
+}
+ */
+
+});
+
+
 </script>
 
 
