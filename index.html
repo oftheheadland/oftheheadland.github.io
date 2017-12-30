@@ -313,6 +313,11 @@
 $(window).resize(function() {
 
 //toggle sidebar based on screen width
+
+if (screen && screen.width > 480) {
+    
+
+
 if($("#wrapper").hasClass("toggled")) {
     //if screen size < 600 and sidebar is visible, toggle it
     if ($(window).width() <= 600) {
@@ -328,10 +333,9 @@ if ($(window).width() >= 600) {
     }
 }
 
+}
 
-if (screen && screen.width < 480) {
-            $("#wrapper").toggleClass("toggled");
-        };
+
 /*     var isVisible = $( "#sidebar-wrapper" ).is( ":visible" ); 
     var isHidden = $( "#sidebar-wrapper" ).is( ":hidden" );
 
