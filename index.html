@@ -300,15 +300,23 @@
 
 
 
-        if (screen && screen.width < 480) {
-            $("#wrapper").toggleClass("toggled");
-        };
+
     </script>
 
 <script>
+
+    if (screen && screen.width < 480) {
+        $("#wrapper").toggleClass("toggled");
+    };
+
+
     if ($(window).width() < 960) {
         $("#wrapper").toggleClass("toggled");
     }
+
+    
+
+
 
 $(window).resize(function() {
 
