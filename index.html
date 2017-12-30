@@ -34,7 +34,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
 
-                <img style="text-align: center;" src="img/profile.png" width="180" alt="logo">
+                <img style="text-align: center;" src="img/profilebig.png" width="180" alt="logo">
                 <li class="sidebar-brand">
                     <a style="color:#999999">
                         Andrew VanNess
@@ -95,7 +95,7 @@
 
                     <div style="font-size: 22px; letter-spacing: 1px;" class="title-arch">I'm a web and software developer. Check out my projects below.</div>
 
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-8 project project-1 wow animated animated4 fadeInLeft">
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 project project-1 wow animated animated4 fadeInLeft">
                         <div class="project-hover">
                             <h2><i title="Starred" class="em em-star"></i>PairBud </h2>
                             <hr />
@@ -108,7 +108,7 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-8 project project-2 wow animated animated3 fadeInLeft">
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 project project-2 wow animated animated3 fadeInLeft">
                         <div class="project-hover">
                             <h2><i title="Starred" class="em em-star"></i>ChirpCharts</h2>
                             <hr />
@@ -121,7 +121,7 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-8 project project-3 wow animated animated2 fadeInLeft">
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 project project-3 wow animated animated2 fadeInLeft">
                         <div class="project-hover">
                             <h2><i title="Starred" class="em em-star"></i>YelpCamp</h2>
                             <hr />
@@ -304,6 +304,14 @@
             $("#wrapper").toggleClass("toggled");
         };
     </script>
+
+<script>
+    if ($(window).width() < 960) {
+        $("#wrapper").toggleClass("toggled");
+    }
+
+</script>
+
 
     <script>
         $(function () {
