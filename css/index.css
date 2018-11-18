@@ -9,3 +9,15 @@
         margin-bottom: 10px !important;
     }
 }
+
+li {
+    font-weight: 600;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.project-description {
+    margin-bottom: 0;
+}
