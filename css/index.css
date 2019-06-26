@@ -21,3 +21,8 @@ ul {
 .project-description {
     margin-bottom: 0;
 }
+
+a {
+    color: #bb244c;
+    text-decoration: none;
+}
