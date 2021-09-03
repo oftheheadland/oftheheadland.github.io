@@ -69,12 +69,12 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        " React, JavaScript ES6, jQuery, HTML, CSS, NodeJS, PHP, SQL, Wordpress"
+        "VueJS, React, Wordpress, PHP, SQL, JavaScript, HTML, CSS, NodeJS"
       ]
     },
     {
       "keywords": [
-        "GitLab, Invision, Github, Visual Studio Code, Heroku, Digital Ocean"
+        "Github, GitLab, Invision, Jira, Visual Studio Code, Heroku, Digital Ocean"
       ],
       "name": "Tools"
     }
