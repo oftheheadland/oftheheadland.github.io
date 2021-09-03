@@ -29,4 +29,11 @@ a {
 
 .btn {
     background-color: #bb2452;
+    margin: 1px;
+    text-align: center;
+    min-width: 135px;
+}
+
+.skill-tag {
+    margin: 1px;
 }
