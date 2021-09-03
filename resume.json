@@ -1,0 +1,125 @@
+{
+  "selectedTemplate": 6,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Andrew VanNess",
+    "email": "andrewvanness221@gmail.com",
+    "phone": "(508) 821-8428",
+    "location": {
+      "address": "Waltham, MA"
+    },
+    "website": "oftheheadland.com"
+  },
+  "education": [
+    {
+      "institution": "Bridgewater State University",
+      "studyType": "BS",
+      "location": "Bridgewater, MA",
+      "area": "Computer Science",
+      "startDate": "Aug 2014",
+      "endDate": "May 2018"
+    }
+  ],
+  "work": [
+    {
+      "location": "Lexington, MA",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "May 2018",
+      "endDate": "Present",
+      "highlights": [
+        "Developed a React application for the EPA to visualize U.S. water data",
+        "Worked with a team of experienced developers in a fast-paced Agile environment",
+        "Met with clients to gather requirements and plan project schedules"
+      ],
+      "company": "Eastern Research Group, Inc."
+    },
+    {
+      "highlights": [
+        "Assigned and graded Python assignments and exams",
+        "Tutored students individually and held weekly sessions with the entire class to review course material",
+        "Assisted professors in preparing assignments and lectures"
+      ],
+      "company": "Bridgewater State University",
+      "position": "Computer Science Teaching Assistant",
+      "startDate": "Aug 2017",
+      "endDate": "May 2018",
+      "location": "Bridgewater, MA"
+    },
+    {
+      "highlights": [
+        "Updated and maintained the town website through a CMS",
+        "Automated time-consuming IT processes and increased productivity",
+        "Provided technical support to local Police and Fire departments"
+      ],
+      "company": "Town of Falmouth",
+      "position": "Website Intern",
+      "endDate": "Aug 2017",
+      "startDate": "April 2017",
+      "location": "Falmouth. MA"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        " React, JavaScript ES6, jQuery, HTML, CSS, NodeJS, PHP, SQL, Wordpress"
+      ]
+    },
+    {
+      "keywords": [
+        "GitLab, Invision, Github, Visual Studio Code, Heroku, Digital Ocean"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "description": "A map-centric, open source, progressive web application that pulls data from multiple systems at the EPA to provide a user with an overall picture of their water quality.",
+      "url": "https://mywaterway.epa.gov/",
+      "keywords": [
+        "React",
+        "NodeJS",
+        "Esri",
+        null
+      ],
+      "name": "How's My Waterway"
+    },
+    {
+      "keywords": [
+        "Chrome Extension",
+        ""
+      ],
+      "name": "Colorblindly",
+      "description": "Chrome extension for simulating colorblindness on any web page. Featured on Motherboard.",
+      "url": "https://uxpro.cc/toolbox/colorblindly/"
+    },
+    {
+      "keywords": [
+        "React, Python",
+        null
+      ],
+      "description": "Discord bot for  seamlessly searching and sharing images, videos, news, and more.",
+      "url": "https://jamiebot.com/",
+      "name": "Jamie Bot"
+    }
+  ],
+  "awards": [
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
