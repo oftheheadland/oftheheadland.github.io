@@ -18,7 +18,7 @@
   "education": [
     {
       "institution": "Bridgewater State University",
-      "studyType": "BS",
+      "studyType": "B.S.",
       "location": "Bridgewater, MA",
       "area": "Computer Science",
       "startDate": "Aug 2014",
@@ -33,17 +33,18 @@
       "startDate": "May 2018",
       "endDate": "Present",
       "highlights": [
-        "Developed a React application for the EPA to visualize U.S. water data",
-        "Worked with a team of experienced developers in a fast-paced Agile environment",
-        "Met with clients to gather requirements and plan project schedules"
+        "Converted an outdated natural disaster management website to a full-stack Vue/PHP/MySQL application used by the Department of Homeland Security",
+        "Developed an EPA application for the public to view local water quality data using React and Esri's ArcGIS JavaScript API to produce high-detail informative map visualizations",
+        "Created an internal browser extension for the CDC to automate the process of reporting fradulent COVID-19 preventative products on online marketplaces including Amazon and eBay",
+        "Rebuilt the home page of a government waste management website to reduce page load times by 80% and improved SEO to increase site traffic from 1,000 monthly users to consistently over 20,000",
+        "Achieved 100% test coverage and full WCAG accessibility compliance on a flagship EPA React application"
       ],
       "company": "Eastern Research Group, Inc."
     },
     {
       "highlights": [
         "Assigned and graded Python assignments and exams",
-        "Tutored students individually and held weekly sessions with the entire class to review course material",
-        "Assisted professors in preparing assignments and lectures"
+        "Tutored students individually and held weekly sessions with the entire class to review course material"
       ],
       "company": "Bridgewater State University",
       "position": "Computer Science Teaching Assistant",
@@ -53,9 +54,7 @@
     },
     {
       "highlights": [
-        "Updated and maintained the town website through a CMS",
-        "Automated time-consuming IT processes and increased productivity",
-        "Provided technical support to local Police and Fire departments"
+        "Updated and maintained the town website through a CMS "
       ],
       "company": "Town of Falmouth",
       "position": "Website Intern",
@@ -69,7 +68,7 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        "VueJS, React, Wordpress, PHP, SQL, JavaScript, HTML, CSS, NodeJS"
+        "Vue, React, JavaScript, HTML, CSS, WordPress, PHP, SQL, NodeJS"
       ]
     },
     {
@@ -97,7 +96,7 @@
         ""
       ],
       "name": "Colorblindly",
-      "description": "Chrome extension for simulating colorblindness on any web page. Featured on Motherboard.",
+      "description": "Chrome extension for simulating colorblindness on any web page. Featured on VICE's Motherboard.",
       "url": "https://uxpro.cc/toolbox/colorblindly/"
     },
     {
@@ -117,8 +116,8 @@
     "templates",
     "profile",
     "work",
-    "education",
     "projects",
+    "education",
     "skills",
     "awards"
   ]
