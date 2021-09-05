@@ -13,7 +13,7 @@
     "location": {
       "address": "Waltham, MA"
     },
-    "website": "oftheheadland.com"
+    "website": "https://oftheheadland.com"
   },
   "education": [
     {
@@ -21,8 +21,8 @@
       "studyType": "B.S.",
       "location": "Bridgewater, MA",
       "area": "Computer Science",
-      "startDate": "Aug 2014",
-      "endDate": "May 2018"
+      "endDate": "May 2018",
+      "startDate": "Aug 2014"
     }
   ],
   "work": [
