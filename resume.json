@@ -1,5 +1,5 @@
 {
-  "selectedTemplate": 6,
+  "selectedTemplate": 2,
   "headings": {
     "skills": "Skills",
     "projects": "Projects",
@@ -54,7 +54,8 @@
     },
     {
       "highlights": [
-        "Updated and maintained the town website through a CMS "
+        "Updated and maintained the town website through a CMS ",
+        "Automated time-consuming IT processes by writing a script to identify water bills made in error and flag them for manual review"
       ],
       "company": "Town of Falmouth",
       "position": "Website Intern",
