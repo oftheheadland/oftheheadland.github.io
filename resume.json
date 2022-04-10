@@ -4,7 +4,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "education": "Education",
-    "work": "Work Experience"
+    "work": "Experience"
   },
   "basics": {
     "name": "Andrew VanNess",
@@ -27,19 +27,31 @@
   ],
   "work": [
     {
+      "highlights": [
+        "As part of a small team, developed and managed the marketing websites for a large corporation - ensuring they were constantly updated in a fast-paced environment",
+        "Migrated a Vue app to Next.js for 75% faster page loads, better SEO, and enhanced web accessibility",
+        "Hands-on experience with modern web development technology including Next.js, WordPress, GraphCMS, VueJS, and SEO best practices "
+      ],
+      "company": "Nexthink",
+      "position": "Full Stack Developer",
+      "location": "Boston, MA",
+      "startDate": "October 2021",
+      "endDate": "Present"
+    },
+    {
       "location": "Lexington, MA",
       "position": "Web Developer",
       "website": "",
       "startDate": "May 2018",
-      "endDate": "Present",
       "highlights": [
-        "Converted an outdated natural disaster management website to a full-stack Vue/PHP/MySQL application used by the Department of Homeland Security",
-        "Developed an EPA application for the public to view local water quality data using React and Esri's ArcGIS JavaScript API to produce high-detail informative map visualizations",
+        "Screened applications, interviewed, and assisted with selecting junior developers to be hired as part of our development team ",
+        "Trained junior developers in our processes and technologies and supported them as needed through their first few months",
         "Created an internal browser extension for the CDC to automate the process of reporting fradulent COVID-19 preventative products on online marketplaces including Amazon and eBay",
         "Rebuilt the home page of a government waste management website to reduce page load times by 80% and improved SEO to increase site traffic from 1,000 monthly users to consistently over 20,000",
         "Achieved 100% test coverage and full WCAG accessibility compliance on a flagship EPA React application"
       ],
-      "company": "Eastern Research Group, Inc."
+      "company": "Eastern Research Group, Inc.",
+      "endDate": "October 2021"
     },
     {
       "highlights": [
@@ -69,12 +81,12 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        "Vue, React, JavaScript, HTML, CSS, WordPress, PHP, SQL, NodeJS"
+        "Vue, React, Next.js, GraphCMS, JavaScript, HTML, CSS, WordPress, PHP, SQL, NodeJS"
       ]
     },
     {
       "keywords": [
-        "Github, GitLab, Invision, Jira, Visual Studio Code, Heroku, Digital Ocean"
+        "Github, GitLab, Vercel, Pantheon, Invision, Jira, Visual Studio Code, Heroku, Digital Ocean"
       ],
       "name": "Tools"
     }
