@@ -30,7 +30,7 @@
       "highlights": [
         "As part of a small team, developed and managed the marketing websites for a large corporation - ensuring they were constantly updated in a fast-paced environment",
         "Migrated a Vue app to Next.js for 75% faster page loads, better SEO, and enhanced web accessibility",
-        "Hands-on experience with modern web development technology including Next.js, WordPress, GraphCMS, VueJS, and SEO best practices "
+        "Hands-on experience with modern web development technology including Next.js, WordPress, GraphCMS, and Vue"
       ],
       "company": "Nexthink",
       "position": "Full Stack Developer",
@@ -81,7 +81,7 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        "Vue, React, Next.js, GraphCMS, JavaScript, HTML, CSS, WordPress, PHP, SQL, NodeJS"
+        "Vue, React, Next.js, GraphCMS, JavaScript, HTML, CSS, WordPress, PHP, SQL, Node"
       ]
     },
     {
@@ -97,7 +97,7 @@
       "url": "https://mywaterway.epa.gov/",
       "keywords": [
         "React",
-        "NodeJS",
+        "Node",
         "Esri",
         null
       ],
@@ -114,7 +114,7 @@
     },
     {
       "keywords": [
-        "React, NodeJS, MongoDB",
+        "React, Node, MongoDB",
         null
       ],
       "description": "Discord bot for seamlessly searching and sharing images, videos, news, and more. In use by over 125,000 members across 1,000 communities.",
